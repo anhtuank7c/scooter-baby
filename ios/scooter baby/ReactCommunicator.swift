@@ -29,8 +29,19 @@ class ReactCommunicator: NSObject {
         // do something if needed at the end of the partial flush of the batch
     }
 
-    @objc func navigateToNative() {
+    @objc func navigateToNative(_ node: NSNumber) {
         NSLog("navigateToNative")
 //        self.bridge.eventDispatcher.sendAppEventWithName("EventReminder", body: ret)
+//        let vc = self.bridge?.uiManager.view(forReactTag: node) as! UIViewController
+        DispatchQueue.main.async {
+            NSLog("navigateToNative 2")
+//            ReactNativeNavigation.getBridge().
+//            if let vc = self.bridge?.uiManager.view(forReactTag: node) as! UIViewController {
+//
+//            }
+//            vc.dismiss(animated: true, completion: nil)
+//            let rootView = UIViewController()
+//            rootView.
+        }
     }
 }

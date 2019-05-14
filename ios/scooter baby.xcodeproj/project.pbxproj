@@ -10,6 +10,8 @@
 		088D883ECEC248C0F840770E /* Pods_scooter_baby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570713B3ADFF8F55A22DA526 /* Pods_scooter_baby.framework */; };
 		3A35A057228B3D1100448F32 /* ReactCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A35A056228B3D1100448F32 /* ReactCommunicator.swift */; };
 		3A35A05A228B3D9B00448F32 /* ReactCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A35A059228B3D9B00448F32 /* ReactCommunicator.m */; };
+		3A4FF073228B487B00323331 /* CounterViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FF072228B487B00323331 /* CounterViewManager.swift */; };
+		3A4FF075228B48E500323331 /* CounterViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FF074228B48E500323331 /* CounterViewManager.m */; };
 		3AF6050D228B1B460079EC29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6050C228B1B460079EC29 /* AppDelegate.swift */; };
 		3AF6050F228B1B460079EC29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6050E228B1B460079EC29 /* ViewController.swift */; };
 		3AF60512228B1B460079EC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF60510228B1B460079EC29 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		3A35A056228B3D1100448F32 /* ReactCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactCommunicator.swift; sourceTree = "<group>"; };
 		3A35A058228B3D9B00448F32 /* scooter baby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scooter baby-Bridging-Header.h"; sourceTree = "<group>"; };
 		3A35A059228B3D9B00448F32 /* ReactCommunicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactCommunicator.m; sourceTree = "<group>"; };
+		3A4FF072228B487B00323331 /* CounterViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewManager.swift; sourceTree = "<group>"; };
+		3A4FF074228B48E500323331 /* CounterViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterViewManager.m; sourceTree = "<group>"; };
 		3AF60509228B1B460079EC29 /* scooter baby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scooter baby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF6050C228B1B460079EC29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AF6050E228B1B460079EC29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				3AF60515228B1B470079EC29 /* LaunchScreen.storyboard */,
 				3AF60518228B1B470079EC29 /* Info.plist */,
 				3A35A058228B3D9B00448F32 /* scooter baby-Bridging-Header.h */,
+				3A4FF072228B487B00323331 /* CounterViewManager.swift */,
+				3A4FF074228B48E500323331 /* CounterViewManager.m */,
 			);
 			path = "scooter baby";
 			sourceTree = "<group>";
@@ -233,6 +239,8 @@
 				3AF6050D228B1B460079EC29 /* AppDelegate.swift in Sources */,
 				3A35A05A228B3D9B00448F32 /* ReactCommunicator.m in Sources */,
 				3A35A057228B3D1100448F32 /* ReactCommunicator.swift in Sources */,
+				3A4FF073228B487B00323331 /* CounterViewManager.swift in Sources */,
+				3A4FF075228B48E500323331 /* CounterViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
