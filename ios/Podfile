@@ -15,6 +15,7 @@ target 'scooter baby' do
     'RCTLinkingIOS',
     'RCTWebSocket', # needed for debugging
     # Add any other subspecs you want to use in your project
+    'RCTImage',
     'RCTGeolocation',
     'RCTVibration',
     'RCTAnimation',

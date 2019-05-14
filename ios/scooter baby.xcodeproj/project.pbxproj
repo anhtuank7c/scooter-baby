@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088D883ECEC248C0F840770E /* Pods_scooter_baby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570713B3ADFF8F55A22DA526 /* Pods_scooter_baby.framework */; };
+		3A35A057228B3D1100448F32 /* ReactCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A35A056228B3D1100448F32 /* ReactCommunicator.swift */; };
+		3A35A05A228B3D9B00448F32 /* ReactCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A35A059228B3D9B00448F32 /* ReactCommunicator.m */; };
 		3AF6050D228B1B460079EC29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6050C228B1B460079EC29 /* AppDelegate.swift */; };
 		3AF6050F228B1B460079EC29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6050E228B1B460079EC29 /* ViewController.swift */; };
 		3AF60512228B1B460079EC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF60510228B1B460079EC29 /* Main.storyboard */; };
 		3AF60514228B1B470079EC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF60513228B1B470079EC29 /* Assets.xcassets */; };
 		3AF60517228B1B470079EC29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF60515228B1B470079EC29 /* LaunchScreen.storyboard */; };
-		9E787E4758379A37C4FC7153 /* Pods_scooter_baby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD4A5C5589C9AB9C02BBE4F /* Pods_scooter_baby.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		006A9BB70D929066B176DDC2 /* Pods-scooter baby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scooter baby.release.xcconfig"; path = "Target Support Files/Pods-scooter baby/Pods-scooter baby.release.xcconfig"; sourceTree = "<group>"; };
+		3A35A056228B3D1100448F32 /* ReactCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactCommunicator.swift; sourceTree = "<group>"; };
+		3A35A058228B3D9B00448F32 /* scooter baby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scooter baby-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A35A059228B3D9B00448F32 /* ReactCommunicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactCommunicator.m; sourceTree = "<group>"; };
 		3AF60509228B1B460079EC29 /* scooter baby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scooter baby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF6050C228B1B460079EC29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AF6050E228B1B460079EC29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +28,9 @@
 		3AF60513228B1B470079EC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF60516228B1B470079EC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AF60518228B1B470079EC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		802500AFD670F416CD40B1DE /* Pods-scooter baby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scooter baby.debug.xcconfig"; path = "Target Support Files/Pods-scooter baby/Pods-scooter baby.debug.xcconfig"; sourceTree = "<group>"; };
-		ABD4A5C5589C9AB9C02BBE4F /* Pods_scooter_baby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scooter_baby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A88D8F3379D09A13F65D686 /* Pods-scooter baby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scooter baby.debug.xcconfig"; path = "Target Support Files/Pods-scooter baby/Pods-scooter baby.debug.xcconfig"; sourceTree = "<group>"; };
+		570713B3ADFF8F55A22DA526 /* Pods_scooter_baby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scooter_baby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		650142E81347652F010AD979 /* Pods-scooter baby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scooter baby.release.xcconfig"; path = "Target Support Files/Pods-scooter baby/Pods-scooter baby.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E787E4758379A37C4FC7153 /* Pods_scooter_baby.framework in Frameworks */,
+				088D883ECEC248C0F840770E /* Pods_scooter_baby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +51,7 @@
 				3AF6050B228B1B460079EC29 /* scooter baby */,
 				3AF6050A228B1B460079EC29 /* Products */,
 				8DB07E3A0E4DAD3FF66AC9A7 /* Pods */,
-				633C2E8F07801D9DAAD91387 /* Frameworks */,
+				404256C33B93A267D23A7229 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,18 +68,21 @@
 			children = (
 				3AF6050C228B1B460079EC29 /* AppDelegate.swift */,
 				3AF6050E228B1B460079EC29 /* ViewController.swift */,
+				3A35A056228B3D1100448F32 /* ReactCommunicator.swift */,
+				3A35A059228B3D9B00448F32 /* ReactCommunicator.m */,
 				3AF60510228B1B460079EC29 /* Main.storyboard */,
 				3AF60513228B1B470079EC29 /* Assets.xcassets */,
 				3AF60515228B1B470079EC29 /* LaunchScreen.storyboard */,
 				3AF60518228B1B470079EC29 /* Info.plist */,
+				3A35A058228B3D9B00448F32 /* scooter baby-Bridging-Header.h */,
 			);
 			path = "scooter baby";
 			sourceTree = "<group>";
 		};
-		633C2E8F07801D9DAAD91387 /* Frameworks */ = {
+		404256C33B93A267D23A7229 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ABD4A5C5589C9AB9C02BBE4F /* Pods_scooter_baby.framework */,
+				570713B3ADFF8F55A22DA526 /* Pods_scooter_baby.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,8 +90,8 @@
 		8DB07E3A0E4DAD3FF66AC9A7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				802500AFD670F416CD40B1DE /* Pods-scooter baby.debug.xcconfig */,
-				006A9BB70D929066B176DDC2 /* Pods-scooter baby.release.xcconfig */,
+				4A88D8F3379D09A13F65D686 /* Pods-scooter baby.debug.xcconfig */,
+				650142E81347652F010AD979 /* Pods-scooter baby.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -95,11 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AF6051B228B1B470079EC29 /* Build configuration list for PBXNativeTarget "scooter baby" */;
 			buildPhases = (
-				0F67E2B088EE0F604A24C805 /* [CP] Check Pods Manifest.lock */,
+				C257ADDA9CCE8A0DC761A037 /* [CP] Check Pods Manifest.lock */,
 				3AF60505228B1B460079EC29 /* Sources */,
 				3AF60506228B1B460079EC29 /* Frameworks */,
 				3AF60507228B1B460079EC29 /* Resources */,
-				FE4A8E7A248442EB85471DF7 /* [CP] Embed Pods Frameworks */,
+				144B116DB07C108B0C2C4763 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +130,7 @@
 				TargetAttributes = {
 					3AF60508228B1B460079EC29 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -157,29 +166,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F67E2B088EE0F604A24C805 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-scooter baby-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE4A8E7A248442EB85471DF7 /* [CP] Embed Pods Frameworks */ = {
+		144B116DB07C108B0C2C4763 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,6 +200,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-scooter baby/Pods-scooter baby-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C257ADDA9CCE8A0DC761A037 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-scooter baby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -222,6 +231,8 @@
 			files = (
 				3AF6050F228B1B460079EC29 /* ViewController.swift in Sources */,
 				3AF6050D228B1B460079EC29 /* AppDelegate.swift in Sources */,
+				3A35A05A228B3D9B00448F32 /* ReactCommunicator.m in Sources */,
+				3A35A057228B3D1100448F32 /* ReactCommunicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,9 +376,10 @@
 		};
 		3AF6051C228B1B470079EC29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 802500AFD670F416CD40B1DE /* Pods-scooter baby.debug.xcconfig */;
+			baseConfigurationReference = 4A88D8F3379D09A13F65D686 /* Pods-scooter baby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "scooter baby/Info.plist";
@@ -378,6 +390,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.ctlab.scooter-baby";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "scooter baby/scooter baby-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,9 +399,10 @@
 		};
 		3AF6051D228B1B470079EC29 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 006A9BB70D929066B176DDC2 /* Pods-scooter baby.release.xcconfig */;
+			baseConfigurationReference = 650142E81347652F010AD979 /* Pods-scooter baby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "scooter baby/Info.plist";
@@ -398,6 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.ctlab.scooter-baby";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "scooter baby/scooter baby-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
