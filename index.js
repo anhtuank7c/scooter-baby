@@ -37,7 +37,14 @@ Navigation.events().registerAppLaunchedListener(() => {
         children: [
           {
             component: {
-              name: 'HighScores'
+              name: 'HighScores',
+              options: {
+                topBar: {
+                  title: {
+                    text: 'Scooter'
+                  }
+                }
+              }
             }
           }
         ]
