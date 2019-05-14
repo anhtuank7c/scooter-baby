@@ -29,7 +29,7 @@ class ReactCommunicator: NSObject {
         // do something if needed at the end of the partial flush of the batch
     }
 
-    @objc func navigateToNative(_ node: NSNumber) {
+    @objc func navigateToNative() {
         NSLog("navigateToNative")
 //        self.bridge.eventDispatcher.sendAppEventWithName("EventReminder", body: ret)
 //        let vc = self.bridge?.uiManager.view(forReactTag: node) as! UIViewController
