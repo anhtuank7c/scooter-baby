@@ -58,6 +58,8 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
+  - ReactNativeNavigation (2.18.5):
+    - React
   - RNGestureHandler (1.2.1):
     - React
   - yoga (0.59.8.React)
@@ -78,6 +80,7 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - ReactNativeNavigation (from `../node_modules/react-native-navigation`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -94,6 +97,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
     :path: "../node_modules/react-native"
+  ReactNativeNavigation:
+    :path: "../node_modules/react-native-navigation"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   yoga:
@@ -105,9 +110,10 @@ SPEC CHECKSUMS:
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
   React: 76e6aa2b87d05eb6cccb6926d72685c9a07df152
+  ReactNativeNavigation: 76542352a90b32cc339cadd8a8b020e9c8f3c757
   RNGestureHandler: aea90f0ad8e35fec23438db6fc3ad79be58bb734
   yoga: 92b2102c3d373d1a790db4ab761d2b0ffc634f64
 
-PODFILE CHECKSUM: 0bae4195618f30312f2752acadda1e41aa02c464
+PODFILE CHECKSUM: 2f7abff3268df6aa1bf0a20a8d9dd88fc7af1f91
 
 COCOAPODS: 1.6.1

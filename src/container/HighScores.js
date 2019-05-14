@@ -2,15 +2,18 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
 export default ({ screenProps }) => {
-  var contents = screenProps.scores.map(score => (
-    <Text key={score.name}>
-      {score.name}:{score.value}
-      {'\n'}
-    </Text>
-  ))
+  let contents = null
+  if (screenProps && screenProps.scores) {
+    contents = screenProps.scores.map(score => (
+      <Text key={score.name}>
+        {score.name}:{score.value}
+        {'\n'}
+      </Text>
+    ))
+  }
   return (
     <View style={styles.container}>
-      <Text style={styles.highScoresTitle}>Scooter Baby High Scores!</Text>
+      <Text style={styles.highScoresTitle}>Scooter Baby!</Text>
       <Text style={styles.scores}>{contents}</Text>
     </View>
   )

@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDD1B350FD7F50F9B410DC5FDA4C4BE2"
-               BuildableName = "RNGestureHandler.framework"
-               BlueprintName = "RNGestureHandler"
+               BlueprintIdentifier = "A0B26AFA49C0790389833B6EC98DB464"
+               BuildableName = "ReactNativeNavigation.framework"
+               BlueprintName = "ReactNativeNavigation"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
